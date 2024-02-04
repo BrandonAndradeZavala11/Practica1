@@ -8,7 +8,7 @@ export default function Titulos(props){
             fontFamily: props.fontFamily,
             fontSize: props.fontSize
         }}>
-            <h1>Titulo Practica 1</h1>
+            <h1>Titulo de Practica 1</h1>
         </div>
     )
 }

@@ -7,7 +7,7 @@ export default function Imagen(props){
             border: props.border,
             color: props.color
         }}>
-        <img src={logo} alt="una simple imagen" />
+        <img src={logo} alt="una imagen" />
         </div>
     )
 }

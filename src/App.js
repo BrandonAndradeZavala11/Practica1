@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Titulos color="#318CE7" fontFamily="cursive" fontSize="2rem"></Titulos>
-        <Parrafo color="black" fontFamily="Arial" fontSize="1rem"></Parrafo>
+        <Parrafo color="gray" fontFamily="Arial" fontSize="1rem"></Parrafo>
         <Imagen border="3px solid" color="#CC3333"></Imagen>
       </header>
     </div>

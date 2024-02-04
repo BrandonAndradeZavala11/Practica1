@@ -1,22 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Titulos from './components/Titulos';
+import Parrafo from './components/Parrafo';
+import Imagen from './components/Imagen';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Titulos color="#318CE7" fontFamily="cursive" fontSize="2rem"></Titulos>
+        <Parrafo color="black" fontFamily="Arial" fontSize="1rem"></Parrafo>
+        <Imagen border="3px solid" color="#CC3333"></Imagen>
       </header>
     </div>
   );

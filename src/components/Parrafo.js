@@ -9,7 +9,7 @@ export default function Parrafo(props){
         }}>
             <p>
                 Este es un parrafo en React que se usa para
-                una demostracion en react. Abajo esta una imagen de una 
+                una demostracion. Abajo esta una imagen de una 
                 laptop.
             </p>
         </div>
